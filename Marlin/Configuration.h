@@ -1221,7 +1221,7 @@
  *                                      X, Y, Z [, I [, J [, K...]]], E0 [, E1[, E2...]]
  */
 //#define DEFAULT_AXIS_STEPS_PER_UNIT   { 160, 160, 800, 405 }
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 160, 160, 800, 857 } // Stock firmware values
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 160, 160, 800, 824 } // Stock firmware values
 
 /**
  * Default Max Feed Rate (linear=mm/s, rotational=°/s)
@@ -1756,7 +1756,7 @@
 #define Z_MIN_POS 0
 #define X_MAX_POS X_BED_SIZE
 #define Y_MAX_POS Y_BED_SIZE
-#define Z_MAX_POS 200
+#define Z_MAX_POS 195
 //#define I_MIN_POS 0
 //#define I_MAX_POS 50
 //#define J_MIN_POS 0
